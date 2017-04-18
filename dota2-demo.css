@@ -1,0 +1,369 @@
+/*reset*/
+body,div,a,ul,li,h1,h2,h3,h4,img,p{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/***************common****************/
+body{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.y-middle:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+#content{
+	margin: 0 auto;
+	width: 1265px;
+	text-align: center;
+}
+h2{
+	font-size: 40px;
+}
+h3{
+	font-size: 18px;
+	margin: 15px 0;
+}
+h4{
+	font-size: 16px;
+	font-style: italic;
+	color: rgb(114,114,114);
+	margin: 20px 0 75px 0;
+}
+p{
+	font-size: 14px;
+	color: rgb(114,114,114);
+	line-height: 1.5em;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 279456 */
+  src: url('//at.alicdn.com/t/font_ronby2jyzmyujtt9.eot');
+  src: url('//at.alicdn.com/t/font_ronby2jyzmyujtt9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_ronby2jyzmyujtt9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_ronby2jyzmyujtt9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_ronby2jyzmyujtt9.svg#iconfont') format('svg');
+}
+.share-icon{
+    font-family:"iconfont" !important;
+    font-size:40px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+/************head style*************/
+#head{
+	width: 100%;
+	background: url(images/head-bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	color: white;
+	margin: 0 auto;
+}
+#head .title a{
+	color: white;
+	display: inline-block;
+	padding: 20px 40px;
+	background: rgba(254,209,54,0.8);
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: 700;
+}
+#head .title a:hover{
+	background: rgba(254,209,54,1);
+}
+#head .title{
+	padding: 300px 0;
+	text-align: center;
+}
+#head .top-menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+	padding: 15px 0;
+	z-index: 10;
+}
+#head .top-menu ul{
+	margin-right: 50px;
+}
+#head .top-menu a{
+	display: block;
+	float: right;
+	padding: 10px 10px;
+	font-size: 20px;
+	color: white;
+}
+#head .top-menu .back-logo a{
+	float: left;
+	color: rgb(254,209,54);
+	margin-left: 50px;
+}
+#head .top-menu li a:hover{
+	color: rgb(254,209,54);
+}
+#head  h1{
+	font-size: 75px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+#head  h2{
+	font-size: 40px;
+	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin-bottom: 20px;
+}
+/***********************items*********************/
+.items h2{
+}
+#content .items{
+	padding: 150px 60px;
+}
+#content .item-info{
+	margin: 0 -12.5px;
+}
+#content .item-info > div{
+	width: 360px;
+	float: left;
+	padding: 0 15px;
+}
+#content .item-info img{
+	width: 120px;
+	border-radius: 60px;
+}
+/*********************team***********************/
+#content .team{
+	background: #f7f7f7;
+	padding: 150px 60px;
+}
+#content .team-info div{
+	float: left;
+	padding-right: 30px;
+	margin-bottom: 30px;
+}
+#content .team-info{
+	margin-right: -25px;
+}
+#content .team-info a{
+	display: block;
+	border-radius: 10px;
+	position: relative;
+	width: 360px;
+	height: 260px;
+}
+#content .team-info a:hover:before{
+	content: '+';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: rgba(254,209,54,0.7);
+	color: white;
+	font-size: 90px;
+	font-weight: bold;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 260px;
+}
+#content .eg a{
+	background: url(images/team-eg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+}
+#content .navi a{
+	background: url(images/team-navi.jpg) 50% 50% no-repeat;
+	background-size: cover;
+}
+#content .alliance a{
+	background: url(images/team-alliance.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+}
+#content .wings a{
+	background: url(images/team-wings.jpg) 50% 50% no-repeat;
+	background-size: cover;
+}
+#content .og a{
+	background: url(images/team-og.jpg) 50% 50% no-repeat;
+	background-size: cover;
+}
+#content .ig a{
+	background: url(images/team-ig.png) 50% 50% no-repeat;
+	background-size: cover;
+}
+/**************************champion*********************/
+#content .champion{
+	padding: 150px 60px;
+}
+#content h3{
+	margin: 10px 0 5px 0;
+}
+#content .champion .time-line img,
+#content .next{
+	display: inline-block;
+	width: 156px;
+	height: 156px;
+	border: 8px solid rgb(241,241,241);
+	border-radius: 50%;
+}
+#content .time-line li,
+#content .time-line{
+	position: relative;
+}
+#content .time-line li{
+	margin-bottom: 100px;
+	font-size: 0px;
+}
+#content .time-line li div{
+	position: absolute;
+	width: 350px;
+	top: 0;
+	left: 50%;
+	margin-left: -466px;
+	text-align: right;
+}
+#content .time-line li:nth-child(2n) div{
+	position: absolute;
+	width: 350px;
+	top: 0;
+	left: 50%;
+	margin-left: 116px;
+	text-align: left;
+}
+#content .time-line:before{
+	content: '';
+	display: block;
+	position: absolute;
+	border-left: 2px solid rgb(241,241,241);
+	height: 100%;
+	left: 50%;
+	margin-left: -1px;
+
+}
+#content .time-line .next{
+	background: rgb(254,209,54);
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 40px;
+}
+#content .time-line .next:before{
+	content: '';
+	display: block;
+	height: 35px;
+}
+/****************************player*************************/
+#content .player{
+	background: #f7f7f7;
+	padding: 150px 60px;
+}
+#content .player-info li{
+	float: left;
+	width: 360px;
+	padding-right: 30px;
+}
+#content .player-info li>p{
+	margin-bottom: 20px;
+}
+#content .player-info{
+	margin-right: -25px;
+	margin-bottom: 50px;
+}
+#content .player-info img{
+	width: 240px;
+	border-radius: 50%;
+	border: 8px solid rgb(241,241,241);
+}
+#content .share a{
+	color: black;
+}
+#content .share a:hover{
+	color: rgb(254,209,54);
+}
+/**********************footer**************************/
+#footer{
+	width: 100%;
+	text-align: center;
+}
+#footer .contact{
+	padding: 150px 60px;
+	background: url(images/footer-bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	color: white;
+	margin: 0 auto;
+}
+#footer .form input{
+	display: block;
+	width: 530px;
+	height: 57px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+#footer .form textarea{
+	display: block;
+	float: right;
+	width: 530px;
+	height: 206px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px;
+}
+#footer .form a{
+	color: white;
+	display: inline-block;
+	padding: 20px 40px;
+	background: rgba(254,209,54,0.8);
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: 700;
+}
+#footer .form a:hover{
+	background: rgba(254,209,54,1);
+}
+#footer .footer-menu{
+	padding: 25px 0;
+	position: relative;
+}
+#footer .footer-menu>a{
+	color: black;
+}
+#footer .footer-menu>a:hover{
+	color: rgb(254,209,54);
+}
+#footer .footer-menu:before{
+	content: 'Copyright © Your Website 2014';
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translateY(-50%);
+}
+#footer .footer-menu span{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	transform: translateY(-50%);
+}
+#footer .footer-menu span a{
+	color: rgb(254,209,54);
+	padding-right: 10px;
+}
+#footer .footer-menu span a:hover{
+	text-decoration: underline;
+}
